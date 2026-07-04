@@ -12,6 +12,9 @@
 </p>
 
 ---
+<p align="center">
+  <a href="https://app.powerbi.com/view?r=eyJrIjoiYmU1ZTE0MzAtNDE0OS00ZmUyLWExMzktOWEzNTZjODVjNTc3IiwidCI6IjY1OWNlMmI4LTA3MTQtNDE5OC04YzM4LWRjOWI2MGFhYmI1NyJ9"><b>🔗 Acessar Dashboard Online</b></a>
+</p>
 
 ## 🎥 Demonstração
 
@@ -54,15 +57,6 @@ O fio condutor da análise é a **eficiência comercial e a maximização da mar
 | Análise exploratória | Python (pandas, matplotlib, seaborn) |
 
 ---
-
-## 🏗️ Pipeline do Projeto
-
-Dados brutos (Kaggle)
-→ Diagnóstico e EDA (Python)
-→ Normalização relacional (MySQL) — Dimensões: products · regions · payment_methods | Fato: sales
-→ Queries analíticas em SQL — Curva ABC · Ticket médio · Receita por categoria/região · Outliers
-→ Modelagem dimensional no Power BI (Star Schema) — Fact_Sales + Dim_Products + Dim_Regions + Dim_Payments + DimCalendarDAX
-→ Medidas DAX + Dashboard executiva (2 páginas)
 
 ### Modelo Relacional (MySQL)
 
