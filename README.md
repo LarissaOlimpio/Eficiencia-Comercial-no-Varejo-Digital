@@ -113,9 +113,16 @@ Aprofundamento em comportamento de mercado, concentração de receita e relaçã
 ## ▶️ Como Executar
 
 1. Clone o repositório
-2. Crie o banco no MySQL Workbench e execute os scripts na ordem: `01_star_schema_modeling.sql` → `02_data_migration.sql`
-3. Execute as análises desejadas (`03` a `07`) conforme o tema de interesse
-4. Abra o arquivo `.pbix` na pasta `Dashboard/` no Power BI Desktop
+2. Crie o banco no MySQL Workbench executando `01_star_schema_modeling.sql` (cria as tabelas de dimensão e fato)
+3. Popule as tabelas escolhendo uma das opções abaixo:
+
+- Opção A — usando os dados já tratados (mais rápido): importe diretamente os CSVs da pasta Data/cleaned_data/ (products.csv, regions.csv, payments.csv, sales.csv) para as tabelas correspondentes, usando o assistente de importação do MySQL Workbench. Nesse caso, não é necessário rodar  `02_data_migration.sql`.
+- Opção B — partindo da tabela única original: caso você tenha os dados brutos em uma única tabela (vendas_tratada), execute 02_data_migration.sql para migrar e distribuir os dados entre as tabelas de dimensão e fato.
+
+
+
+4. Execute as análises desejadas (`03` a `07`) conforme o tema de interesse
+5. Abra o arquivo `.pbix` na pasta `Dashboard/` no Power BI Desktop
 
 ---
 
