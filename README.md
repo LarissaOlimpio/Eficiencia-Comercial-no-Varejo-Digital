@@ -18,8 +18,9 @@
 
 ## 🎥 Demonstração
 
+https://github.com/user-attachments/assets/087a10cd-73b8-4dc9-a861-3582b77d0c8b
 
-![dashboard-demo](./Dashboard/demo.gif)
+
 
 ---
 
