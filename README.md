@@ -18,7 +18,11 @@
 
 ## 🎥 Demonstração
 
-https://github.com/user-attachments/assets/087a10cd-73b8-4dc9-a861-3582b77d0c8b
+
+
+https://github.com/user-attachments/assets/51502ec4-e74f-4ead-80f4-0dedcb1040b8
+
+
 
 
 
